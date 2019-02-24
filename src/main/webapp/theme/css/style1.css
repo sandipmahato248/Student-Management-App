@@ -1,0 +1,60 @@
+  .header {
+	width: 100%;
+	background-color: #008080;
+	color: 	#F5FFFA;
+	text-align: center;
+	
+}  
+ .topnav {
+	position: fixed;
+	width: 100%;
+	background-color: #008080;
+	display: inline-block;
+
+} 
+.logo {
+      display: inline;
+      float: left;
+      margin-left: 10px;
+     width: 50px;
+     height: 50px;
+     	
+    }
+#studentList{
+display: block;
+max-height: 1000px;
+overflow-y: auto;
+-ms-overflow-style: -ms-autohiding-scrollbar;	
+} 
+.modal-header{
+background-color: #008080;	
+}
+#name, #address, #roll, #nameEdit, #addressEdit, #rollEdit {
+	 width: 550px; 
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 4px;
+	margin-bottom: 10px;
+	resize: vertical;
+	box-sizing: border-box;
+}
+#btnAdd, #btnUpdate {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 18px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #008080;
+	color: #FFFAF0;
+
+}

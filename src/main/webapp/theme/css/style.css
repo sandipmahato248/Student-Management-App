@@ -1,0 +1,41 @@
+.header {
+	width: 100%;
+	background-color: #008080;
+	color: white;
+	text-align: center;
+	z-index: 9;
+}
+.topnav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #008080;
+}
+#name, #address, #roll, #nameEdit, #addressEdit, #rollEdit {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 4px;
+	margin-bottom: 10px;
+	resize: vertical;
+}
+#btnAdd, #btnUpdate {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #008080;
+	color: white;
+}
+​
